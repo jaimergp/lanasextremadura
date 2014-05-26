@@ -1,0 +1,5 @@
+# Linux & Sublime
+.directory
+*~
+*.sublime-workspace
+

@@ -403,6 +403,17 @@ hr {
 .outer.none {
     margin-bottom: 20px
 }
+
+.caption {
+    padding: 10px 0 10px 0;
+    line-height: 16px;
+    max-width: 288px;
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 80%);
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 80%);
+    background: -o-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 80%);
+    background: -ms-linear-gradient(bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 80%);
+    background: linear-gradient(to top, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 80%);
+}
 .main-image {
     text-align: center;
     padding: 0;
