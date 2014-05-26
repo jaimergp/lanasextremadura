@@ -163,6 +163,7 @@ a.more {
     line-height: 1;
 }
 a.button,
+input.btn-submit,
 .forms fieldset .btn-submit,
 #commentform input#submit {
     font-family: 'Open Sans Condensed', sans-serif;
@@ -721,7 +722,7 @@ iframe {
     text-decoration: none;
     width: 100%;
     z-index: 100;
-    background: rgba(0, 0, 0, 0.55) url(style/images/icon-more.png) no-repeat center center;
+    background: rgba(0, 0, 0, 0.55) url(style/images/icon-go.png) no-repeat center center;
 }
 .post .details {
     background: rgba(0, 0, 0, 0.12);
