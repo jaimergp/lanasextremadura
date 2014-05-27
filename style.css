@@ -1257,10 +1257,14 @@ li.post.pingback p {
 #commentform textarea {
     padding: 7px 10px;
     height: 35px;
+    border-radius: 7px;
+}
+.forms fieldset .text-input {
+    max-width: 300px;
 }
 .forms fieldset .text-area,
 #commentform textarea {
-    min-height: 200px;
+    min-height: 150px;
     padding: 10px;
     resize: vertical;
 }
