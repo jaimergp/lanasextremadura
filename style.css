@@ -1545,3 +1545,8 @@ ul.flickr-feed li img {
     margin: 0;
     padding: 15px 0 0 0;
 }
+a.dotted-link {
+    border-bottom: 1px dotted #AAA;
+}a.dotted-link:hover {
+    border-bottom: 1px dotted #2f835a;
+}
