@@ -51,6 +51,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 360,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "servicios.html",
+			"settings":
+			{
+				"buffer_size": 7854,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 32121,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 2932,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -264,6 +296,20 @@
 	},
 	"file_history":
 	[
+		"/C/git/lanasextremadura/contacto.html",
+		"/C/git/lanasextremadura/_includes/header.html",
+		"/C/git/lanasextremadura/lanas.html",
+		"/C/git/lanasextremadura/_includes/footer.html",
+		"/C/git/lanasextremadura/style.css",
+		"/C/git/lanasextremadura/.gitignore",
+		"/C/git/lanasextremadura/contexto-internacional.html",
+		"/C/git/lanasextremadura/contexto-nacional.html",
+		"/C/git/lanasextremadura/servicios.html",
+		"/C/git/lanasextremadura/nosotros.html",
+		"/C/git/lanasextremadura/_includes/big2.html",
+		"/C/git/lanasextremadura/_includes/big1.html",
+		"/C/git/lanasextremadura/_includes/header.htm",
+		"/C/git/lanasextremadura/lanasextremadura.sublime-project",
 		"/home/jr/w/lanasextremadura/contact.html",
 		"/home/jr/w/lanasextremadura/style.css",
 		"/home/jr/w/lanasextremadura/contacto.html",
@@ -377,21 +423,7 @@
 		"/home/jrodriguez/.config/sublime-text-2/Packages/User/Python.sublime-settings",
 		"/home/jrodriguez/.config/sublime-text-2/Packages/User/Markdown.sublime-settings",
 		"/home/jrodriguez/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/User/toggleRuler.py",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/PlainTasks/messages/Tutorial.todo",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/ToggleSettings/ToggleSettings.sublime-settings",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/User/ToggleSettings.sublime-settings",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/Terminal/Terminal.sublime-settings",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/Terminal/Default (Linux).sublime-keymap",
-		"/home/jrodriguez/x/testdict.py",
-		"/home/jrodriguez/x/roadmap.md",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/MarkdownEditing/Bold and Italic Markers.tmPreferences",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/User/Markdown (Standard).sublime-settings",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
-		"/home/jrodriguez/.config/sublime-text-2/Packages/SublimeCodeIntel/Default (Linux).sublime-mousemap"
+		"/home/jrodriguez/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap"
 	],
 	"find":
 	{
@@ -399,7 +431,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 108.0,
 		"where_history":
 		[
 			"<open files>",
@@ -412,6 +444,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lite1",
+			"form",
+			"{% include header.html %}\n\n<!-- Begin Wrapper -->\n<div class=\"wrapper\"><!-- Begin Intro -->\n<div class=\"intro\">La seriedad, el trato cercano y correcto, la calidad de los servicios prestados, la pronta retirada de las <strong>lanas</strong> y el inmediato pago de las mismas a precios competitivos hacen que nuestros clientes queden satisfechos y confíen en nosotros campaña tras campaña.</div>\n<!-- End Intro --> \n<!-- Begin Container -->",
+			"<!-- Begin Footer -->\n<div class=\"footer-wrapper\">\n<div id=\"footer\" class=\"four\">\n		<div id=\"first\" class=\"widget-area\">\n<p>[place]</p>\n			<div class=\"widget widget_archive\">\n				<h3 class=\"widget-title\">Archives</h3>\n				<ul>\n					<li><a href=\"#\">September 2012</a> (6)</li>\n					<li><a href=\"#\">August 2012</a> (2)</li>\n					<li><a href=\"#\">July 2012</a> (2)</li>\n					<li><a href=\"#\">June 2012</a> (4)</li>\n					<li><a href=\"#\">May 2012</a> (3)</li>\n					<li><a href=\"#\">January 2012</a> (1)</li>\n				</ul>\n			</div>	\n		</div><!-- #first .widget-area -->\n	\n		<div id=\"second\" class=\"widget-area\">\n			<div id=\"twitter-2\" class=\"widget example\">\n					<h3 class=\"widget-title\">Texto de prueba</h3>\n					\n					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod\n					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,\n					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\n					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse\n					cillum dolore eu fugiat nulla pariatur.</p>\n			</div>\n		</div><!-- #second .widget-area -->\n	\n	\n		<div id=\"third\" class=\"widget-area\">\n		<div id=\"example-widget-3\" class=\"widget example\">\n			<h3 class=\"widget-title\">Algunas de nuestras lanas</h3>\n			<ul class=\"post-list\">\n			  	<li> \n			  		<div class=\"frame\">\n			  			<a href=\"lanas.html#tipo-2\"><img src=\"style/images/lanas/tipo2.thumb.jpg\" /></a>\n			  		</div>\n					<div class=\"meta\">\n					    <h3><a href=\"lanas.html#tipo-2\">Lana de Tipo 2</a></h6>\n					    <em>22-23 micras</em>\n				    </div>\n				</li>\n				<li> \n			  		<div class=\"frame\">\n			  			<a href=\"lanas.html#tipo-3\"><img src=\"style/images/lanas/tipo3.thumb.jpg\" /></a>\n			  		</div>\n					<div class=\"meta\">\n					    <h3><a href=\"lanas.html#tipo-3\">Lana de Tipo 3</a></h6>\n					    <em>24-25 micras</em>\n				    </div>\n				</li>\n				<li> \n			  		<div class=\"frame\">\n			  			<a href=\"lanas.html#tipo-4\"><img src=\"style/images/lanas/tipo4.thumb.jpg\" /></a>\n			  		</div>\n					<div class=\"meta\">\n					    <h3><a href=\"lanas.html#tipo-4\">Lana de Tipo 4</a></h6>\n					    <em>25-27 micras</em>\n				    </div>\n				</li>\n			</ul>\n			\n		</div>\n		</div><!-- #third .widget-area -->\n		\n		<div id=\"fourth\" class=\"widget-area\">\n		<div class=\"widget\">\n			<h3 class=\"widget-title\">Contacta con nosotros</h3>\n			<p><strong>Lanas Extremadura S.L.</strong><br />622 56 90 40</p>\n			<p><a href=\"#\" style=\"border-bottom: 1px dotted #AAA\">Más información</a>\n		</div>\n		</div><!-- #fourth .widget-area -->\n	</div>\n</div>\n<div class=\"site-generator-wrapper\">\n	<div class=\"site-generator\">Diseño original de <a href=\"http://elemisfreebies.com\">elemis</a> // Adaptado por <a href=\"https://www.twitter.com/jaime_rgp\" target=\"_blank\">@jaime_rgp</a> // Material fotográfico proporcionado por Sara Viviens</div>\n</div>\n<!-- End Footer --> \n<script type=\"text/javascript\" src=\"style/js/scripts.js\"></script>\n</body>\n</html>",
 			"<li><a href=\"#\">Contacto</a></li>",
 			"					</",
 			"<span class=\"dropcap\">(.)</span> ",
@@ -535,18 +571,16 @@
 			"^\\t..",
 			"^\\t...",
 			"^",
-			"(^..).*",
-			"^..",
-			"template",
-			"mol.",
-			"xformCoord()\n			a.setCoord(r.apply(a.coord()))"
+			"(^..).*"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
+			"{% include header.html %}\n<div class=\"wrapper\">\n{% include big1.html %}",
+			"{% include footer.html %}",
 			"<li><a href=\"contacto.html\">Contacto</a></li>",
 			"\\1",
 			"2f835a",
@@ -590,8 +624,474 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								38
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "servicios.html",
+					"settings":
+					{
+						"buffer_size": 7854,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7710,
+								7710
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2592.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"settings":
+					{
+						"buffer_size": 32121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31850,
+								31850
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 36862.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "_includes/footer.html",
+					"settings":
+					{
+						"buffer_size": 2932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2454,
+								2454
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1512.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -667,6 +1167,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 144.0,
+	"side_bar_width": 209.0,
 	"status_bar_visible": true
 }
