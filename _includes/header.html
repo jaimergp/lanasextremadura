@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="es-ES">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>{{ page.title }}</title>
+<meta name="description" content="Lanas Extremadura S.L.">
+<link rel="icon" type="image/png" href="style/images/favicon.png">
+<link rel="stylesheet" type="text/css" media="all" href="style.css" />
+<link rel="stylesheet" type="text/css" href="style/css/media-queries.css" />
+<link rel="stylesheet" type="text/css" href="style/js/player/mediaelementplayer.css" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,700,700italic|Open+Sans+Condensed:300,700' rel="stylesheet" type='text/css'>
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="style/css/ie8.css" media="all" />
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" href="style/css/ie9.css" media="all" />
+<![endif]-->
+<script type="text/javascript" src="style/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="style/js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="style/js/retina.js"></script>
+<script type="text/javascript" src="style/js/selectnav.js"></script>
+<script type="text/javascript" src="style/js/jquery.masonry.min.js"></script>
+<script type="text/javascript" src="style/js/jquery.fitvids.js"></script>
+<script type="text/javascript" src="style/js/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="style/js/mediaelement.min.js"></script>
+<script type="text/javascript" src="style/js/mediaelementplayer.min.js"></script>
+<script type="text/javascript" src="style/js/jquery.dcflickr.1.0.js"></script>
+<script type="text/javascript" src="style/js/twitter.min.js"></script>
+<script type="text/javascript">
+	$.backstretch("style/images/bg/bg2.jpg");
+</script>
+</head>
+<body>
+<div class="scanlines"></div>
+
+<!-- Begin Header -->
+<div class="header-wrapper opacity">
+	<div class="header">
+		<!-- Begin Logo -->
+		<div class="logo">
+		    <a href="index.html">
+				<img src="style/images/logo.png" alt="Lanas Extremadura S.L." />
+			</a>
+	    </div>
+		<!-- End Logo -->
+		<!-- Begin Menu -->
+		{% assign current = page.url | downcase | split: '/' %}
+
+		<div id="menu-wrapper">
+			<div id="menu" class="menu">
+				<ul id="tiny">
+					<li {% if current[1] == 'index.html' %}class="active"{% endif %}><a href="index.html">Inicio</a>
+					</li>
+					<li {% if current[1] == 'nosotros.html' %}class="active"{% endif %}><a href="nosotros.html">Nosotros</a>
+						<ul>
+							<li><a href="nosotros.html#quienes-somos">Quiénes somos</a></li>
+							<li><a href="contacto.html">Dónde estamos</a></li>
+						</ul>
+					</li>
+
+					<li {% if current[1] == 'contexto-nacional.html' or current[1] == 'contexto-internacional.html'  %}class="active"{% endif %}><a href="contexto-nacional.html">Sector lanero</a>
+						<ul>
+							<li><a href="contexto-nacional.html">Contexto nacional</a></li>
+							<li><a href="contexto-internacional.html">Contexto internacional</a></li>
+						</ul>
+					</li>
+					<li {% if current[1] == 'lanas.html' %}class="active"{% endif %}><a href="lanas.html">Productos</a>
+					</li>
+					<li {% if current[1] == 'servicios.html' %}class="active"{% endif %}><a href="servicios.html">Servicios</a>
+						<ul>
+							<li><a href="servicios.html#compra-envasado">Compra y envasado</a></li>
+							<li><a href="servicios.html#pesaje-pago">Pesaje y pago</a></li>
+							<li><a href="servicios.html#retirada-almacenamiento">Retirada y almacenamiento</a></li>
+							<li><a href="servicios.html#clasificacion">Clasificación</a></li>
+							<li><a href="servicios.html#prensado-venta">Prensado y venta</a></li>
+						</ul>
+					</li>
+					<li {% if current[1] == 'contacto.html' %}class="active"{% endif %}><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!-- End Menu -->
+	</div>
+</div>
+<!-- End Header -->

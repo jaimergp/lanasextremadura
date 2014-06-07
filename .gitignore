@@ -3,3 +3,7 @@
 *~
 *.sublime-workspace
 
+#Jekyll & Ruby
+_site
+Gemfile
+Gemfile.lock
