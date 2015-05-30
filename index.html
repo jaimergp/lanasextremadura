@@ -2,16 +2,44 @@
 title: Lanas Extremadura S.L.
 ---
 {% include header.html %}
+<script type="text/javascript">
+jQuery(document).ready(function($) {
+	$('#slideshow').bjqs({
+		'height' : 570,
+		'width' : 900,
+		'responsive' : true,
+		'showcontrols' : false,
+		'animtype' : 'fade',
+		'randomstart': true,
+		'animduration' : 1000,
+		'hoverpause' : false, 
+	});
+});
+</script>
+
 <div class="wrapper">
 {% include big1.html %}
 
-
-	<div class="box">
-		<img src="style/images/custom/portada.jpg" alt="Lanas Extremadura" title="Lanas Extremadura" style="margin: 15px auto 30px auto" />
+	<div class="box" id="slideshow" style="margin:0 auto 0 auto; padding:0;">
+		<!-- start Basic Jquery Slider -->
+        <ul class="bjqs">
+          <li><img src="style/images/slideshow/00.jpg"></li>
+          <li><img src="style/images/slideshow/01.jpg"></li>
+          <li><img src="style/images/slideshow/02.jpg"></li>
+          <li><img src="style/images/slideshow/03.jpg"></li>
+          <li><img src="style/images/slideshow/04.jpg"></li>
+          <li><img src="style/images/slideshow/05.jpg"></li>
+          <li><img src="style/images/slideshow/06.jpg"></li>
+          <li><img src="style/images/slideshow/07.jpg"></li>
+          <li><img src="style/images/slideshow/08.jpg"></li>
+          <li><img src="style/images/slideshow/09.jpg"></li>
+          <li><img src="style/images/slideshow/10.jpg"></li>
+          <li><img src="style/images/slideshow/11.jpg"></li>
+          <li><img src="style/images/slideshow/12.jpg"></li>
+        </ul>
+        <!-- end Basic jQuery Slider -->
 		<div class="clear"></div>
 	</div>
-
-
 
 {% include big2.html %}
 </div>
