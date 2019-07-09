@@ -9,6 +9,7 @@
 <link rel="stylesheet" type="text/css" media="all" href="style.css" />
 <link rel="stylesheet" type="text/css" href="style/css/media-queries.css" />
 <link rel="stylesheet" type="text/css" href="style/js/player/mediaelementplayer.css" />
+<link rel="stylesheet" type="text/css" href="style/css/cookieconsent.min.css" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300,700,700italic|Open+Sans+Condensed:300,700' rel="stylesheet" type='text/css'>
 <!--[if IE 8]>
 <link rel="stylesheet" type="text/css" href="style/css/ie8.css" media="all" />
@@ -28,9 +29,30 @@
 <script type="text/javascript" src="style/js/jquery.dcflickr.1.0.js"></script>
 <script type="text/javascript" src="style/js/twitter.min.js"></script>
 <script type="text/javascript" src="style/js/bjqs.min.js"></script>
+<script type="text/javascript" src="style/js/cookieconsent.min.js"></script>
 <script type="text/javascript">
 	$.backstretch("style/images/bg/bg2.jpg");
 </script>
+<script>
+	window.addEventListener("load", function(){
+	window.cookieconsent.initialise({
+	  "palette": {
+		"popup": {
+		  "background": "#222222"
+		},
+		"button": {
+		  "background": "#2f835a"
+		}
+	  },
+	  "theme": "edgeless",
+	  "content": {
+		"message": "Utilizamos cookies propias y de terceros para mejorar la experiencia de navegación -",
+		"dismiss": "Entendido",
+		"link": "Más información",
+		"href": "/data/cookies.pdf"
+	  }
+	})});
+	</script>
 </head>
 <body>
 <div class="scanlines"></div>
